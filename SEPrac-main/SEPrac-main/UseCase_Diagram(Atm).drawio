@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-02-28T00:11:35.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.7" etag="WnqeTXKLBoHDNpZRwqCD" type="device">
+  <diagram id="O-xs_LPjLHSo0hrEJQVu" name="Page-1">
+    <mxGraphModel dx="880" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="535" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-3" value="Enter a card ,User name and Pin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-4" value="Check balance" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-5" value="Deposit Money" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-6" value="Withdrawal of money" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-7" value="Request for minimal statement" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="535" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-8" value="Invalid Id" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;direction=west;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="445" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.042;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GiJu7aXDg2SMr8wps9hE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GiJu7aXDg2SMr8wps9hE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="610" as="sourcePoint" />
+            <mxPoint x="189.96" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GiJu7aXDg2SMr8wps9hE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="630" as="sourcePoint" />
+            <mxPoint x="190" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="GiJu7aXDg2SMr8wps9hE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="660" as="sourcePoint" />
+            <mxPoint x="170" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="650" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.917;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="750" as="sourcePoint" />
+            <mxPoint x="650" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.96" y="780" as="sourcePoint" />
+            <mxPoint x="650" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.983;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="650" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.855;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.989;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-8" target="GiJu7aXDg2SMr8wps9hE-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="440" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GiJu7aXDg2SMr8wps9hE-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.289;exitY=0.92;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.917;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GiJu7aXDg2SMr8wps9hE-7" target="GiJu7aXDg2SMr8wps9hE-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="320" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
